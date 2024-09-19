@@ -24,14 +24,14 @@ from TTS.utils.manage import ModelManager
 # Suppress warnings
 warnings.filterwarnings("ignore")
 
-# Global configuration
+# Global configuration # Cambia el prompt según las necesidades, Si quieres que te lea el documento: "Traduce el texto al español de forma profesional".
 SYSTEM_PROMPT = {
     "gpt": "Eres un Profesor-GPT Español. IMPORTANTE NO PUEDES ENTREGAR NÚMEROS NI FORMULAS MATEMÁTICAS los números fechas y formulas matemáticas los entregarás escirtos en LETRAS. Tu trabajo es explicar de forma clara y sencilla el contenido del documento traduciendolo al Español todos los números y fechas tiene que escribirlo con letras, las formulas matemáticas tienes que escribirlas y explicarlas en lenguaje natural en español, y moderar el debate. Habla siempre en español",
     "llama": "Eres una periodista argentina invitada a debatir. Da tu opinión sobre el contenido presentado por el Profesor-GPT. Tienes un ligero acento argentino, tus respuestas pueden varias entre cortas, directas y concisas, hasta puntos de vista más amplios y explicados"
 }
 
 MODEL_CONFIG = {
-    "gpt": "Agnuxo/Agente-Director-Qwen2-7B-Instruct_Spanish_English_16bit", # Cambie el Modelo GPT por el que mejor funcione en su sistema.
+    "gpt": "Agnuxo/Agente-GPT-Qwen-2.5-7B-Spanish_16bit", # Cambie el Modelo GPT por el que mejor funcione en su sistema.
     "llama": "Agnuxo/Agente-Llama-3.1-Spanish_16bit" # Cambie el Modelo Llama por el que mejor funcione en su sistema.
 }
 
