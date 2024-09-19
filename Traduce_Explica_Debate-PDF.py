@@ -31,8 +31,8 @@ SYSTEM_PROMPT = {
 }
 
 MODEL_CONFIG = {
-    "gpt": "arcee-ai/Llama-3.1-SuperNova-Lite", # Cambie el Modelo GPT por el que mejor funcione en su sistema.
-    "llama": "Qwen/Qwen2-1.5B" # Cambie el Modelo Llama por el que mejor funcione en su sistema.
+    "gpt": "Agnuxo/Agente-Director-Qwen2-7B-Instruct_Spanish_English_16bit", # Cambie el Modelo GPT por el que mejor funcione en su sistema.
+    "llama": "arcee-ai/Llama-3.1-SuperNova-Lite" # Cambie el Modelo Llama por el que mejor funcione en su sistema.
 }
 
 MAX_TOKENS = 500
