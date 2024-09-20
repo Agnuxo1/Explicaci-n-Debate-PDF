@@ -31,8 +31,8 @@ SYSTEM_PROMPT = {
 }
 
 MODEL_CONFIG = {
-    "gpt": "Agnuxo/Agente-GPT-Qwen-2.5-7B-Spanish_16bit", # Cambie el Modelo GPT por el que mejor funcione en su sistema.
-    "llama": "Agnuxo/Agente-Llama-3.1-Spanish_16bit" # Cambie el Modelo Llama por el que mejor funcione en su sistema.
+    "gpt": "Agnuxo/Agente-GPT-Qwen-2.5-7B-Spanish_16bit", # Cambie el Modelo GPT por el que mejor funcione en su sistema. He entrenado varios modelos en español, desde 0.5B parámetros hasta 14B.
+    "llama": "Agnuxo/Agente-Llama-3.1-Spanish_16bit" # Cambie el Modelo Llama por el que mejor funcione en su sistema. https://huggingface.co/Agnuxo
 }
 
 MAX_TOKENS = 500
